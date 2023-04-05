@@ -8,7 +8,6 @@ const removeNonLetters = function(word) {
     returnArray = []
     for (i = 0; i < arrayLength; i++) {
         currentLetter = wordArray[i].toLowerCase()
-        // console.log(currentLetter)
         if (isLetter(currentLetter)) {
             returnArray.push(currentLetter)
         }
